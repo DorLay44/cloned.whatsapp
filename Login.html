@@ -275,6 +275,7 @@ body {
 	padding: 5px;
 	width: 45%;
 	height: auto;
+	overflow: hidden;
 }
 
 .column{
@@ -322,7 +323,9 @@ input[type=type]:focus,
 input[type=password]: focus {
 bacground-color: #ddd;
 outline: none;
+overflow: hidden;
 }
+
 hr	{
 		border: 1px solid #f1f1f1;
 		margin-bottom: 25;
@@ -413,12 +416,12 @@ function showSlides() {
 				<label for="phone"></label>
 			</div>
 			<div class="col-75">
-				<input type="text" placeholder="Enter Phone Number Here" name="phone" id"phone" required>
+				<input type="text" placeholder="Enter Phone Number Here" name="phone" id"phone" required >
 			</div>
 		</div><br>
 		<div>
 		<label for="psw"></label>
-		<input type="password" placeholder="Enter Password to Login" name="psw-repeat" id"psw" required>
+		<input type="password" placeholder="Enter Password to Login" name="psw-repeat" id"psw" required >
 		</div> <br>
 		
 		<a href="Profile.html" style="text-decoration:none"><button type="submit" class="Login">Login</button></a>
